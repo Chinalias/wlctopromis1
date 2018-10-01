@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '449705743000666124') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '489175220377354270').send('**     You're In  HollyWood , Welcome ..**');
+  member.guild.channels.find(r => r.id === '489175220377354270').send('Welcome To **HollyWood** Server .');
 },3000);
 });
 var PrEfix = "$";
@@ -17,7 +17,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== '496453620980776960') return;
+  if (message.author.id !== '486566948797415456') return;
 if (message.content.startsWith(PrEfix + 'wt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
     message.channel.sendMessage(`**:white_check_mark:  : ${argresult}**`)
