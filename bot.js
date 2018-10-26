@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '497101650037702669') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '498405076805615626').send('**We are not a Friends We are a __Family__🎭**');
+  member.guild.channels.find(r => r.id === '498405076805615626').send('**Wélcome To Pròmise Śerver .𖤐  **');
 },3000);
 });
 var PrEfix = "$";
